@@ -10,6 +10,20 @@ body{
     font-weight: bold;
 }
 
+p{
+    font-size: 20px;
+
+}
+h2 {
+    font-weight: bold;
+    font-size: 23x;
+    margin-bottom: 20px;
+}
+
+a.font-black{
+    color: #000 !important;
+}
+
 /************
 ABOUT
 ************/
@@ -37,9 +51,11 @@ ABOUT
 }
 
 #about .skills {
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 700;
     color: #00abae;
     margin-bottom: 10px;
+
 }
 
 #about .email {
@@ -58,4 +74,27 @@ ABOUT
 .linked-in {
     height: 35px;
     margin: 0 -74px 26px -84px;
+}
+
+/********************
+
+PROJECT
+
+*********************/
+
+#project {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#project h2 {
+    text-align: center;
+}
+
+#project .card img{
+    width: 100% ;
+}
+
+#project .card-title {
+    font-weight: bold;
 }
